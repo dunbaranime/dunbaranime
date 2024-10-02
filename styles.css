@@ -59,7 +59,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav a {
@@ -101,6 +101,9 @@ nav a:hover {
 .anime-list {
     padding-top: 30px;
     text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .anime-list h3 {
@@ -118,6 +121,66 @@ nav a:hover {
     display: inline-block; /* Change to inline-block for better layout */
     width: 280px; /* Fixed width for cards */
     height: 460px;
+    white-space: wrap;
+}
+
+.meeting-card{
+    background-color: #222;
+}
+
+.meeting-content{
+    padding-left:20px;
+}
+
+.week-anime-list {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.week-anime-list h3 {
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.week-anime-card {
+    white-space: wrap;
+    background-color: #222;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    vertical-align: top;
+    display: inline-block; /* Change to inline-block for better layout */
+    width: 200px; /* Fixed width for cards */
+    height: 280px;
+}
+
+.week-anime-card a {
+    display: block; /* Make the anchor fill the card */
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Set text color to white */
+}
+
+.week-anime-image {
+    object-position: top center;
+    width: 180px; /* Set desired width */
+    height: 180px; /* Set desired height */
+    border-radius: 5px; /* Rounded corners for the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+.week-anime-card h4,
+.week-anime-card p {
+    font-size: 12pt;
+    margin: 4px 0; /* Add margin for spacing */
+}
+
+.week-anime-card:hover {
+    transform: scale(1.05);
 }
 
 .anime-image {
