@@ -126,10 +126,26 @@ nav a:hover {
 
 .meeting-card{
     background-color: #222;
+    
 }
 
 .meeting-content{
     padding-left:20px;
+    text-decoration: none; /* Remove underline */
+}
+
+.meeting-content a{
+    color:#ffa4a4;
+    text-decoration: none; /* Remove underline */
+}
+.meeting-content a:hover{
+    color:#ff0000;
+    text-decoration: none; /* Remove underline */
+}
+
+.meeting-content p{
+    font-weight: 1;
+    text-decoration: none; /* Remove underline */
 }
 
 .week-anime-list {
@@ -139,6 +155,8 @@ nav a:hover {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    
+    
 }
 
 .week-anime-list h3 {
