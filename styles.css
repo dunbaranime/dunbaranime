@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* Hide scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+    display: none; /* Hides scrollbar */
+}
+
+
 p {
     font-family: Rajdhani;
     font-size: 14pt;
@@ -15,15 +21,19 @@ body {
     background-color: #000;
 }
 
+
 header {
     background-color: #c00000;
     padding: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-.header-content {
+.header-content {    text-align: left; /* Center the title */    
     display: flex;
     align-items: center;
     width: 100%;
@@ -31,17 +41,17 @@ header {
 }
 
 .header-logo {
-    max-width: 80px; /* Adjust size as needed */
+    max-width: 60px; /* Adjust size as needed */
     margin: 0;
     height: auto;
 }
 
 header h1 {
     margin: 0;
-    text-align: left; /* Center the title */
-    flex-grow: 1; /* Allow the title to take up available space */
+    /* Allow the title to take up available space */
     margin-left: 2%; /* Adjust left margin to center title ignoring logo */
     font-family: "Fugaz One";
+    font-size: 20pt;
     font-weight: 1;
 }
 
@@ -75,7 +85,8 @@ nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 20px 20px;
+    padding: 30px 20px;
+    padding-top: 160px;
     background-color: #111;
 }
 
@@ -131,6 +142,7 @@ nav a:hover {
 
 .meeting-content{
     padding-left:20px;
+    padding-right:20px;
     text-decoration: none; /* Remove underline */
 }
 
