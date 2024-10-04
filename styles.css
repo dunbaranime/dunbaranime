@@ -6,7 +6,7 @@
 
 /* Hide scrollbar for WebKit browsers */
 ::-webkit-scrollbar {
-    display: none; /* Hides scrollbar */
+    /*display: none; /* Hides scrollbar */
 }
 
 
