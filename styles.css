@@ -60,7 +60,7 @@ nav {
     font-weight: 700;
     letter-spacing: 1px;
     width: 100%;
-    text-align: center; /* Center navigation items */
+    text-align: right; /* Center navigation items */
 }
 
 nav ul {
@@ -69,7 +69,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 4px;
 }
 
 nav a {
@@ -135,6 +135,29 @@ nav a:hover {
     white-space: wrap;
 }
 
+.art-list {
+    padding-top: 30px;
+    text-align: center;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.art-card {
+    background-color: #222;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: wrap;
+    transition: transform 0.3s;
+    vertical-align: top;
+    display: inline-block;  /* Change to inline-block for better layout */
+    width: 280px; /* Fixed width for cards */
+    height: auto;
+    text-decoration: none;
+}
+
 .meeting-card{
     background-color: #222;
     
@@ -160,6 +183,7 @@ nav a:hover {
     text-decoration: none; /* Remove underline */
 }
 
+
 .week-anime-list {
     padding-top: 0px;
     padding-bottom: 10px;
@@ -167,7 +191,6 @@ nav a:hover {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    
     
 }
 
@@ -190,6 +213,11 @@ nav a:hover {
 }
 
 .week-anime-card a {
+    display: block; /* Make the anchor fill the card */
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Set text color to white */
+}
+.art-card a {
     display: block; /* Make the anchor fill the card */
     text-decoration: none; /* Remove underline */
     color: #fff; /* Set text color to white */
