@@ -1,10 +1,10 @@
 Action
 adventure
-mystery
+mystery (bungou stray dogs, erased, 
 psychological/weird (kaiba memory episode, Satoshi kon, etc)
 drama
 romance
-scifi
+scifi (pluto, technolyze, stein's gate, lain, a gundam show, 
 comedy
 horror
 80's
@@ -12,3 +12,4 @@ horror
 mecha
 2000's
 2010's
+"literally me" - (berserk, watamote, evangelion, 
